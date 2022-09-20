@@ -35,7 +35,7 @@ section {
 .hero-image {
     max-width: 500px;
     align-self: center;
-    margin-top: 130px;
+    margin-top: 80px;
 }
 
 .hero-text {
@@ -52,12 +52,20 @@ section {
     font-weight: 300;
     font-size: 18px;
 }
+.card__headline{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+}
 .card {
-    width:175px;
-    font-size: 12px;
+    width:200px;
+    font-size: 14px;
     flex: 0 0 auto;         
     display: flex;     
     flex-direction: column; 
+    position: relative;
 }
 .cards-list {
     display: flex;
@@ -66,8 +74,8 @@ section {
     overflow-x: auto;
 }
 .card__image{
-    width: 170px;
-    height: 240px;
+    width: 200px;
+    height: 280px;
     border-radius: 9px;
 }
 .grey {
@@ -92,4 +100,26 @@ section {
 }
 .card__star {
     height: 14px;
+}
+.card__badge {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+@media (min-width:961px){
+    .hero-image {
+        max-width: 800px;
+        align-self: center;
+    }
+    .cards-list {
+        justify-content: center;
+    }
+    .hero {
+         text-align:center ;
+    }
 }

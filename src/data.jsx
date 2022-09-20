@@ -37,5 +37,31 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Handmade Pasta maiking",
+        description: "We’ll guide you through our authentic process with easy and fun instructions sharing to make pasta old way.",
+        price: 20,
+        coverImg: "pasta.jpg",
+        stats: {
+            rating: 4.5,
+            reviewCount: 20
+        },
+        location: "Online",
+        openSpots: 43,
+    },
+    {
+        id: 5,
+        title: "Plan The Perfect New York Vacation",
+        description: "By booking this Online Experience you will save hours of research by discussing local secrets of New York with me, and receiving a list of personal recommendations about NYC to take home after we chat. ",
+        price: 30,
+        coverImg: "new-york.jpg",
+        stats: {
+            rating: 4.9,
+            reviewCount: 23
+        },
+        location: "Online",
+        openSpots: 6,
     }
 ]
