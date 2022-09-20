@@ -1,6 +1,6 @@
 ## Airbnb Online Experience Clone
 
-#Stack 
+### Stack 
 #### - React  
 #### - Styled Components  
 ## npm Start Runs the app in the development mode. 
